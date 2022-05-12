@@ -6,7 +6,7 @@ Pokédex desenvolvida para treino de conexão entre o FrontEnd e uma API free (h
 ° Poke API
 ° Vue.js
 
-#Conhecimentos necessários:
+# Conhecimentos necessários:
 ° HTML5
 ° CSS3
 ° JavaScript
