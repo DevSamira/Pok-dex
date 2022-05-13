@@ -68,7 +68,7 @@ export default {
   position: absolute;
   background-color: #dadedf;
   margin-top: -28.5rem;
-  margin-left: 27%;
+  margin-left: 30%;
   z-index: 30;
   border-radius: 1rem;
   box-shadow: 3px 5px 15px -6px #000000;

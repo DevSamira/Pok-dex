@@ -1,6 +1,6 @@
 <template>
   <div class="body" v-show="this.showCard">
-    <h1>Exibindo resultados para: {{ pokeName }}</h1>
+    <h1 class="result">Exibindo resultados para: {{ pokeName }}</h1>
     <div class="card">
       <div class="content">
         <img :src="pokeImage" alt="" class="pokephoto" />
@@ -40,6 +40,14 @@ export default {
 </script>
 
 <style scoped>
+@media only screen and (max-width: 568px) {
+  .result {
+    background-color: #606060;
+    height: 10rem;
+    box-shadow: 3px 5px 15px -6px #000000;
+  }
+}
+
 .body {
   display: flex;
   justify-content: space-evenly;
