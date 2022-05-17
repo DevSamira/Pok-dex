@@ -18,6 +18,7 @@
 
 <script>
 export default {
+  name: "ThanksView",
   data() {
     return {
       openCard: false,

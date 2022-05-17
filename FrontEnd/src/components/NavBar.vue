@@ -4,7 +4,7 @@
     <p>Pokédex</p>
     <div class="routes">
       <router-link to="/" class="route">Pesquisa por nome</router-link>
-      <router-link to="/about" class="route">Agradecimentos</router-link>
+      <router-link to="/thanks" class="route">Agradecimentos</router-link>
     </div>
   </nav>
   <router-view />
